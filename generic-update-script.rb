@@ -9,6 +9,7 @@ require "dependabot/pull_request_creator"
 require "dependabot/omnibus"
 require "gitlab"
 require "json"
+require "ostruct"
 
 credentials = [
   {
