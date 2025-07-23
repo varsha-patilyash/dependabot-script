@@ -127,6 +127,8 @@ GEM
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
+    nokogiri (1.13.8-x64-mingw-ucrt)
+      racc (~> 1.4)
     octokit (5.2.0)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
@@ -155,14 +157,16 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.2)
+    unf_ext (0.0.8.2-x64-mingw-ucrt)
     unicode-display_width (2.2.0)
 
 PLATFORMS
   ruby
+  x64-mingw-ucrt
 
 DEPENDENCIES
   dependabot-omnibus (~> 0.209.0)
   irb
 
 BUNDLED WITH
-   1.17.3
+   2.6.9
